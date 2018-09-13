@@ -113,12 +113,8 @@
     <WinLibraryFiles Include="lib\win\zlib1.dll" />
     <None Include="packages.config" />
     <None Include="Resources\images\cardsBoard.png" />
-    <None Include="Resources\sounds\Snap1.wav">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\sounds\Snap2.wav">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="Resources\sounds\Snap1.wav" />
+    <None Include="Resources\sounds\Snap2.wav" />
   </ItemGroup>
   <Target Name="CopyFiles">
     <Copy SourceFiles="@(MacLibraryFiles)" DestinationFolder="$(OutDir)" />
