@@ -35,14 +35,14 @@ namespace CardGames
 				}
 				else if (SwinGame.KeyTyped(KeyCode.vk_LSHIFT))
 				{
-					SwinGame.LoadSoundEffectNamed ("abc", "Snap1.wav");
-					SwinGame.PlaySoundEffect ("abc");
+					SwinGame.LoadSoundEffectNamed ("player1", "Snap1.wav");
+					SwinGame.PlaySoundEffect ("player1");
 					myGame.PlayerHit (0);
 				}
 				else if (SwinGame.KeyTyped(KeyCode.vk_RSHIFT))
 				{
-					SwinGame.LoadSoundEffectNamed ("cdf", "Snap2.wav");
-					SwinGame.PlaySoundEffect ("cdf");
+					SwinGame.LoadSoundEffectNamed ("player2", "Snap2.wav");
+					SwinGame.PlaySoundEffect ("player2");
 					myGame.PlayerHit (1);
 				}
 			}
