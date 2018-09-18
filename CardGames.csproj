@@ -116,6 +116,9 @@
     <None Include="Resources\sounds\Snap1.wav" />
     <None Include="Resources\sounds\Snap2.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\fonts\Chunkfive.otf" />
+  </ItemGroup>
   <Target Name="CopyFiles">
     <Copy SourceFiles="@(MacLibraryFiles)" DestinationFolder="$(OutDir)" />
     <Copy SourceFiles="@(WinLibraryFiles)" DestinationFolder="$(OutDir)" />
