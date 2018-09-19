@@ -184,7 +184,9 @@
     <None Include="Resources\SwinGame.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Resources\fonts\Chunkfive.otf" />
+    <None Include="Resources\fonts\Chunkfive.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Target Name="CopyFiles">
