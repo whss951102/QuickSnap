@@ -63,7 +63,7 @@ namespace CardGames.GameLogic
 			Random rnd = new Random ();
 			//for each card (no need to shuffle last card)
 
-			for(int i = 0; i > 52-1 ; i--) 
+			for(int i = 0; i < 52-1 ; i++) 
 			{
 				int rndIdx = rnd.Next (52 - i);
 
